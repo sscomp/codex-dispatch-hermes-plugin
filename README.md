@@ -1,10 +1,13 @@
 # codex-dispatch-hermes-plugin
 
-Hermes-native Codex dispatch plugin for gateway-driven Hermes profiles.
+Hermes 原生的 Codex 派工外掛，提供 `/codex` 與 `/codex-projects` 指令。
 
-This repo is the Hermes-first counterpart to your earlier OpenClaw-oriented
-Codex dispatch packaging. It installs as a normal Hermes plugin under
-`<HERMES_HOME>/plugins/codex-dispatch` and exposes:
+這個 repo 是給 Hermes-first 系統使用的版本，安裝後會以一般 Hermes plugin
+方式掛到 `<HERMES_HOME>/plugins/codex-dispatch`，並透過 Hermes 自己的訊息
+通道回傳開始與完成通知。
+
+It installs as a normal Hermes plugin under `<HERMES_HOME>/plugins/codex-dispatch`
+and exposes:
 
 - `/codex`
 - `/codex-projects`
@@ -91,4 +94,3 @@ More details:
 
 - [docs/quickstart.md](/Users/sscomp/codex-dispatch-hermes-plugin/docs/quickstart.md)
 - [docs/troubleshooting.md](/Users/sscomp/codex-dispatch-hermes-plugin/docs/troubleshooting.md)
-
