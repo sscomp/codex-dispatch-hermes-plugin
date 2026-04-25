@@ -1,0 +1,12 @@
+{
+  "registry_path": "__HERMES_HOME__/codex-dispatch/codex-projects.json",
+  "job_dir": "__HERMES_HOME__/codex-dispatch/jobs",
+  "allowed_roots": [
+    "__HOME__"
+  ],
+  "codex_path": "codex",
+  "default_sandbox": "workspace-write",
+  "default_model": "",
+  "timeout_minutes": 25
+}
+
